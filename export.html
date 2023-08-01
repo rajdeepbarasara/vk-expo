@@ -31,6 +31,21 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .display-export {
+            display: flex;
+        }
+
+        @media (max-width: 767px) {
+            .display-export {
+                display: block;
+            }
+
+            .display-export img {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -72,8 +87,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 d-flex">
-                <div class="col-md-6 export-network">
+            <div class="col-md-12 col-sm-12 display-export">
+                <div class="col-md-6 col-sm-12 export-network">
                     <h1>Export Network</h1>
                     <p>Our export network is a well-established and dynamic ecosystem connecting us with international
                         markets across the globe. We have diligently cultivated strong relationships with distributors,
@@ -85,7 +100,7 @@
                         partnerships that drive our growth and cement our position as a prominent player in the global
                         ceramic industry.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <img src="./img/export2.jpg" alt="Export" class="mt-30" />
                 </div>
             </div>
