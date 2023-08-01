@@ -31,6 +31,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        @media (max-width: 576px) {
+            .vision-image {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -75,13 +82,13 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                <div class="col-lg-5 mb-5 mb-lg-0 col-sm-12" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s"
                             src="img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-sm-12">
                     <div class="mb-4">
                         <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h5>
                         <h1 class="display-5 mb-0">We Offers Quality Of Ceramic Product</h1>
@@ -121,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 vision-bg">
-                    <img src="./img/vision.jpg" alt="vision" />
+                    <img src="./img/vision.jpg" alt="vision" class="vision-img" />
                 </div>
                 <div class="col-md-6 vision-mission-div">
                     <div class="vision-div">
